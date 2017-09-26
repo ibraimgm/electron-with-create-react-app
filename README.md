@@ -1,13 +1,19 @@
-#bootstrap create-react-app and electron
+# Bootstrap create-react-app with electron
 
-Code repo for post on freeCodeCamp.
+Fork of the repository for [this post](https://medium.freecodecamp.com/building-an-electron-application-with-create-react-app-97945861647c#.ze6c9qin1), with the enhancements proposed by [vcarl](https://github.com/vcarl)(see [here](https://github.com/csepulv/electron-with-create-react-app/pull/2)) [marbemac](https://github.com/marbemac)(see [here](https://github.com/csepulv/electron-with-create-react-app/tree/logging-capture)) and [vicentedealencar](https://github.com/vicentedealencar)(see [here](https://github.com/vicentedealencar/electron-with-create-react-app/commit/f1729381d588e65ac140ce5a08cc6277babd9641))
 
-https://medium.freecodecamp.com/building-an-electron-application-with-create-react-app-97945861647c#.ze6c9qin1
+Also, there is an extra module showing how to access the electron process from inside the react app.
 
-There is another branch, [npm-start](https://github.com/csepulv/electron-with-create-react-app/tree/npm-start)
-It uses `npm-start` instead of `npm run dev`. (change submitted by [vcarl](https://github.com/vcarl)) Details are in this [pull request](https://github.com/csepulv/electron-with-create-react-app/pull/2)
+## Using
 
-Thanks to [marbemac](https://github.com/marbemac) for submitting a pull request that captures logging output. It can be found in [logging-capture](https://github.com/csepulv/electron-with-create-react-app/tree/logging-capture)
+To start your project , clone/fork this repository, then run `npm outdated` and upgrade the dependencies. Then, run `npm install` and go make some coffee.
 
-Thanks to [vicentedealencar](https://github.com/vicentedealencar) for an example of using [electron-builder](https://github.com/electron-userland/electron-builder) for packaging. Details are [here](https://github.com/vicentedealencar/electron-with-create-react-app/commit/f1729381d588e65ac140ce5a08cc6277babd9641).
+After that, you have the following commands:
 
+- `npm start`: Starts the development server and opens electron.
+- `npm run pack`: Make a package with the application.
+- `npm run dist`: Generate and distribution version, on `dist` folder.
+
+## License
+
+This project started as a fork of [csepulv/electron-with-create-react-app](https://github.com/csepulv/electron-with-create-react-app). See `LICENSE` for details and attribution.
